@@ -1,17 +1,16 @@
-var cesar = document.getElementById('cifraCesar') //input radio
-//infelizmente não consegui fazer a cifra de césar
-
+//infelizmente não consegui concluir a cifra de césar
+let cesar = document.getElementById('cifraCesar') //input radio
 
 
 //Codificar e decodificar Base64
-
-var base64 = document.getElementById('base64') //input radio
-var botaoCodifi = document.getElementById('botaoCodificar'); //botao para codificar
-var botaoDecodifi = document.getElementById('botaoDecodificar'); //botao para decodificar
-var mensagem = document.getElementById('mensagem'); //textarea da mensagem
+let base64 = document.getElementById('base64') //input radio
+let botaoCodifi = document.getElementById('botaoCodificar'); //botao para codificar
+let botaoDecodifi = document.getElementById('botaoDecodificar'); //botao para decodificar
+const mensagem = document.getElementById('mensagem'); //textarea da mensagem
 
 
 function baseCodifica(){
+
 
     botaoCodifi.addEventListener('click', function (event) { 
         event.preventDefault();
@@ -30,8 +29,9 @@ function baseCodifica(){
 
 
 
+
 // Mostrar o incremento
-var incremento = document.getElementById('esconderIncremento') //Div do incremento
+const incremento = document.getElementById('esconderIncremento') //Div do incremento
 
 cesar.addEventListener('click', function () {
     incremento.style.display = 'block'
@@ -45,9 +45,11 @@ base64.addEventListener('click', function () {
 
 
 
+
+
 // mudar o botão
-var codificar = document.getElementById('codificar'); //input radio
-var decodificar = document.getElementById('decodificar'); //input radio
+const codificar = document.getElementById('codificar'); //input radio
+const decodificar = document.getElementById('decodificar'); //input radio
 
 
 codificar.addEventListener('click', function () {
