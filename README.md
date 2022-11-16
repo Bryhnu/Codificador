@@ -1,2 +1,2 @@
-# Codificador - Projeto indivídual do segundo módulo
+# <strong>Codificador - Projeto individual do segundo módulo</strong>
 
